@@ -1,0 +1,5 @@
+export const GAMES_LOADING = 'GAMES_LOADING';
+export const GET_GAME = 'GET_GAME';
+export const GET_UPCOMING_GAMES = 'GET_UPCOMING_GAMES';
+
+export const CHANGE_GAME_FILTER = 'CHANGE_GAME_FILTER';
