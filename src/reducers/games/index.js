@@ -1,13 +1,14 @@
 import * as actionTypes from "../../constants/action-types";
 const initialState = {
     games: [],
+    gameCurrentlyInView: {},
     loading: false,
 };
 
 export default (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.GET_GAME: {
-            return {...state, games: action.payload};
+            return {...state, gameCurrentlyInView: action.payload};
         }
 
         case actionTypes.GET_UPCOMING_GAMES: {

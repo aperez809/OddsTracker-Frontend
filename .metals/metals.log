@@ -7,3 +7,15 @@ Oct 12, 2020 10:39:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFO: Unsupported notification method: $/setTraceNotification
 Oct 13, 2020 2:33:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.10.18 20:33:53 INFO  shutting down Metals
+2020.10.19 15:34:43 INFO  started: Metals version 0.9.4 in workspace '/Users/alexperez/Projects/odds-fe' for client vscode.
+2020.10.19 15:34:44 INFO  time: initialize in 0.94s
+2020.10.19 15:34:45 WARN  no build tool detected in workspace '/Users/alexperez/Projects/odds-fe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 19, 2020 4:07:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.21 17:35:10 INFO  shutting down Metals
+2020.10.21 17:36:51 INFO  started: Metals version 0.9.4 in workspace '/Users/alexperez/Projects/odds-fe' for client vscode.
+2020.10.21 17:36:52 INFO  time: initialize in 1.45s
+2020.10.21 17:36:53 WARN  no build tool detected in workspace '/Users/alexperez/Projects/odds-fe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 22, 2020 1:50:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

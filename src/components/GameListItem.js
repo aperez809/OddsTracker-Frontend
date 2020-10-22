@@ -4,6 +4,7 @@ import {Avatar, Card, Col, Row, Skeleton, Switch, message} from 'antd';
 import { DeleteOutlined, EditOutlined, EllipsisOutlined, HeartOutlined, LineChartOutlined, SettingOutlined } from '@ant-design/icons';
 import {getGameById, getUpcomingGames} from '../actions/games'
 
+import { Link } from "react-router-dom";
 import React from "react";
 import {connect} from 'react-redux'
 import moment from 'moment'
@@ -27,8 +28,10 @@ class GameListItem extends React.Component {
                                     title={`${moment(game.game_time).format("ddd, MMM Do YYYY @ h:mm a")}`}
                                     style={{width: '100%'}}
                                     actions={[
-                                        <LineChartOutlined key="setting"/>,
-                                        <HeartOutlined key="edit"/>,
+                                        <Link to={`/games/${game.id}`}>
+                                            <LineChartOutlined key="graph" />
+                                        </Link>,
+                                        <HeartOutlined key="favorite"/>,
                                         <EllipsisOutlined key="ellipsis" />
                                     ]}
                                 >
